@@ -1,6 +1,6 @@
 function [g, alpha, index, order] = KOR89(y,n,omega_d)
 % This version does NOT include sinusoid 
-%% data to be simulated
+% data to be simulated
 
 % n = linspace(0,150,151);
 % omega   = [0.60  0.10  0.45 0.85  0.08];
@@ -20,7 +20,7 @@ prompt = 'What is the order of simulation?\n order = ';
 order = input(prompt);
 % order = 25;
 tic;
-%% searching
+% searching
 % omega_d = sigma;
 % omega_d = linspace(0.01,1.00,100);
 
@@ -92,7 +92,7 @@ end
 
 
 
-%% plot retrieved data to check
+% plot retrieved data to check
 % hold on;
 % yyy = 0;
 % 
