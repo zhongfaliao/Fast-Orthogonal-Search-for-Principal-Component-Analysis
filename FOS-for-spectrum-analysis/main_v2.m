@@ -25,7 +25,7 @@ omega_d = (round(omega_d/0.000001))/(1/0.000001);
 % coefficients g(i) and alpha_cos are returned.
 toc;
 
-%% plot spectra
+% plot spectrum
 
 a = zeros(1,length(g));
 
