@@ -61,3 +61,4 @@ figure;
 plot(spectro,'.-m');
 hold on;
 plot(p_in/max(p_in)*max(spectro),'linewidth',2);
+
